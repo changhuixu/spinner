@@ -1,0 +1,113 @@
+.loading-bars {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  position: relative;
+  margin: auto;
+}
+.loading-bars-block {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  float: left;
+  margin-left: 1px;
+  opacity: 0.1;
+  animation-name: bounceG;
+  -o-animation-name: bounceG;
+  -ms-animation-name: bounceG;
+  -webkit-animation-name: bounceG;
+  -moz-animation-name: bounceG;
+  animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  -ms-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  transform: scale(0.7);
+  -o-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+}
+.block-1 {
+  display: inline-block;
+  animation-delay: 0.45s;
+  -o-animation-delay: 0.45s;
+  -ms-animation-delay: 0.45s;
+  -webkit-animation-delay: 0.45s;
+  -moz-animation-delay: 0.45s;
+}
+.block-2 {
+  display: inline-block;
+  animation-delay: 0.6s;
+  -o-animation-delay: 0.6s;
+  -ms-animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+}
+.block-3 {
+  display: inline-block;
+  animation-delay: 0.75s;
+  -o-animation-delay: 0.75s;
+  -ms-animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s;
+  -moz-animation-delay: 0.75s;
+}
+@keyframes bounceG {
+  0% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.7);
+    opacity: 0.1;
+  }
+}
+@-o-keyframes bounceG {
+  0% {
+    -o-transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    -o-transform: scale(0.7);
+    opacity: 0.1;
+  }
+}
+@-ms-keyframes bounceG {
+  0% {
+    -ms-transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    -ms-transform: scale(0.7);
+    opacity: 0.1;
+  }
+}
+@-webkit-keyframes bounceG {
+  0% {
+    -webkit-transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0.7);
+    opacity: 0.1;
+  }
+}
+@-moz-keyframes bounceG {
+  0% {
+    -moz-transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: scale(0.7);
+    opacity: 0.1;
+  }
+}

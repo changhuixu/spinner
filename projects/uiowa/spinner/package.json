@@ -1,0 +1,23 @@
+{
+  "name": "@uiowa/spinner",
+  "version": "6.0.0",
+  "author": "Changhui Xu <changhui-xu@uiowa.edu>",
+  "description": "(action-spinner) rotating circle spinner, used for actions such as button clicks. (loading-bar) beeping blocks, used for loading promises.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/changhuixu/spinner.git"
+  },
+  "keywords": [
+    "angular",
+    "uiowa",
+    "spinner",
+    "loading",
+    "loader",
+    "loading bar"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  }
+}

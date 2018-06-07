@@ -1,0 +1,26 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  max-width: 1600px;
+}
+
+section {
+  border: 2px black solid;
+  width: 400px;
+  padding: 10px;
+  padding-top: 0;
+  margin: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  section {
+    width: 100%;
+  }
+}
+
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+}
