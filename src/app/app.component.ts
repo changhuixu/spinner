@@ -57,4 +57,8 @@ export class AppComponent {
   <loading-bar>Uploading...</loading-bar>
 </button>
   `;
+  s7 = `
+<uiowa-ring></uiowa-ring>   // default size = 4rem
+<uiowa-ring size="2"></uiowa-ring>
+  `;
 }

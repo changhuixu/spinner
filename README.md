@@ -3,10 +3,11 @@
 [![Build Status](https://img.shields.io/travis/changhuixu/spinner/master.svg?label=Travis%20CI&style=flat-square)](https://travis-ci.org/changhuixu/spinner)
 [![npm](https://img.shields.io/npm/v/@uiowa/spinner.svg?style=flat-square)](https://www.npmjs.com/package/@uiowa/spinner)
 
-## [DEMO](https://stackblitz.com/github/changhuixu/spinner)
+## [DEMO](https://spinner-1f3e5.firebaseapp.com/)  
 
-This library only contains two components and doesn't have third party dependencies.
-> The CSS were modified and inspired from [SpinKit](https://github.com/tobiasahlin/SpinKit).
+[StackBlitz](https://stackblitz.com/github/changhuixu/spinner)
+
+This library only contains three components and doesn't have third party dependencies.
 
 ## Components
 
@@ -19,6 +20,11 @@ This library only contains two components and doesn't have third party dependenc
 
   Beeping blocks. Used for server side data loading.
   Allow to set spinner size. By default, size is 1rem.
+  
+- `uiowa-ring`
+
+  Rotating spinner with Golden and Black colors. Userd as loading indicator.
+  Allow to set spinner size. By default, size is 4rem.
 
 ## Usage
 
@@ -48,14 +54,17 @@ This library only contains two components and doesn't have third party dependenc
 <h2>Title
   <action-spinner></action-spinner>
 </h2>
+
+<uiowa-ring></uiowa-ring>   // default size = 4rem
+<uiowa-ring size="2"></uiowa-ring>
+
 ```
 
 ```typescript
 @NgModule({
   declarations: [...],
   imports: [..., SpinnerModule],  // import SpinnerModule
-  providers: [],
-  bootstrap: [...]
+  providers: []
 })
 export class AppModule {}
 ```

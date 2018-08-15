@@ -1,8 +1,8 @@
 {
   "name": "@uiowa/spinner",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "author": "Changhui Xu <changhui-xu@uiowa.edu>",
-  "description": "(action-spinner) rotating circle spinner, used for actions such as button clicks. (loading-bar) beeping blocks, used for loading promises.",
+  "description": "(action-spinner) rotating circle spinner, used for actions such as button clicks. (loading-bar) beeping blocks, used for loading promises. (uiowa-ring) rotating golden and black spinner, used as loading indicator.",
   "license": "MIT",
   "repository": {
     "type": "git",
