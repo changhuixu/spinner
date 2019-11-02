@@ -14,6 +14,12 @@ section {
   margin: 10px;
 }
 
+.git {
+  font-size: 1.5rem;
+  margin: 2rem;
+  text-align: center;
+}
+
 @media screen and (max-width: 400px) {
   section {
     width: 100%;
