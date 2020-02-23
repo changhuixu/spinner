@@ -40,9 +40,14 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
-            "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.css"],
+            "aot": true,
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -58,7 +63,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -107,17 +111,29 @@
           "options": {
             "tsConfig": "projects/uiowa/spinner/tsconfig.lib.json",
             "project": "projects/uiowa/spinner/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/uiowa/spinner/tsconfig.lib.prod.json"
+            }
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["projects/uiowa/spinner/tsconfig.lib.json"],
-            "exclude": ["**/node_modules/**"]
+            "tsConfig": [
+              "projects/uiowa/spinner/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
     }
   },
-  "defaultProject": "spinner"
+  "defaultProject": "spinner",
+  "cli": {
+    "analytics": "6f2310ff-9e4f-487c-b8e5-3a804b7a64f3"
+  }
 }
