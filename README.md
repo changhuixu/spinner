@@ -3,7 +3,12 @@
 [![Build Status](https://img.shields.io/travis/changhuixu/spinner/master.svg?label=Travis%20CI&style=flat-square)](https://travis-ci.org/changhuixu/spinner)
 [![npm](https://img.shields.io/npm/v/@uiowa/spinner.svg?style=flat-square)](https://www.npmjs.com/package/@uiowa/spinner)
 
-## [DEMO](https://spinner-1f3e5.firebaseapp.com/)  
+CHANGELOG
+
+- **v6** Angular 6+
+- **v10** Angular 10+
+
+## [DEMO](https://spinner-1f3e5.firebaseapp.com/)
 
 [StackBlitz](https://stackblitz.com/github/changhuixu/spinner)
 
@@ -20,7 +25,7 @@ This library only contains three components and doesn't have third party depende
 
   Beeping blocks. Used for server side data loading.
   Allow to set spinner size. By default, size is 1rem.
-  
+
 - `uiowa-ring`
 
   Rotating spinner with Golden and Black colors. Userd as loading indicator.
@@ -51,13 +56,13 @@ This library only contains three components and doesn't have third party depende
   </loading-bar>
 </div>
 
-<h2>Title
+<h2>
+  Title
   <action-spinner></action-spinner>
 </h2>
 
-<uiowa-ring></uiowa-ring>   // default size = 4rem
+<uiowa-ring></uiowa-ring> // default size = 4rem
 <uiowa-ring size="2"></uiowa-ring>
-
 ```
 
 ```typescript
