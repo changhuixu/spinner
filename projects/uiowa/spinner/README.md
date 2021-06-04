@@ -5,8 +5,9 @@
 
 CHANGELOG
 
-- **v6** Angular 6+
+- **v12** Angular 12+
 - **v10** Angular 10+
+- **v6** Angular 6+
 
 ## [DEMO](https://spinner-1f3e5.firebaseapp.com/)
 

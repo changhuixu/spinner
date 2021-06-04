@@ -6,7 +6,11 @@ import { UiowaRingComponent } from './uiowa-ring/uiowa-ring.component';
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [ActionSpinnerComponent, LoadingBarComponent, UiowaRingComponent],
-  exports: [ActionSpinnerComponent, LoadingBarComponent, UiowaRingComponent]
+  declarations: [
+    ActionSpinnerComponent,
+    LoadingBarComponent,
+    UiowaRingComponent,
+  ],
+  exports: [ActionSpinnerComponent, LoadingBarComponent, UiowaRingComponent],
 })
 export class SpinnerModule {}
