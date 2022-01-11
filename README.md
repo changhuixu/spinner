@@ -1,6 +1,6 @@
 # @uiowa/spinner
 
-[![Build Status](https://img.shields.io/travis/changhuixu/spinner/master.svg?label=Travis%20CI&style=flat-square)](https://travis-ci.org/changhuixu/spinner)
+[![Build Status](https://img.shields.io/travis/changhuixu/spinner/master.svg?label=Travis%20CI&style=flat-square)](https://app.travis-ci.com/changhuixu/spinner.svg?branch=main)
 [![npm](https://img.shields.io/npm/v/@uiowa/spinner.svg?style=flat-square)](https://www.npmjs.com/package/@uiowa/spinner)
 
 CHANGELOG
