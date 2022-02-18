@@ -5,6 +5,7 @@
 
 CHANGELOG
 
+- **v13** Angular 13+
 - **v12** Angular 12+
 - **v10** Angular 10+
 - **v6** Angular 6+

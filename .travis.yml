@@ -19,7 +19,7 @@ before_script:
 
 script:
   - npm run build:lib
-  - npm run build:prod
+  - npm run build
 
 after_success:
   - firebase deploy --token $firebase_token
