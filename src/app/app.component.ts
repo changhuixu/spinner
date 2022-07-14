@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   s1 = `
@@ -60,5 +60,10 @@ export class AppComponent {
   s7 = `
 <uiowa-ring></uiowa-ring>   // default size = 4rem
 <uiowa-ring size="2"></uiowa-ring>
+  `;
+  s8 = `
+<div style="height: 100px">
+  <loading-placeholder></loading-placeholder>
+</div>
   `;
 }

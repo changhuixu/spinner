@@ -1,9 +1,10 @@
-import { Component, Attribute } from '@angular/core';
+import { Component, Attribute, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'action-spinner',
   templateUrl: './action-spinner.component.html',
   styleUrls: ['./action-spinner.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ActionSpinnerComponent {
   constructor(@Attribute('size') public size: number) {

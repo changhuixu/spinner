@@ -1,9 +1,10 @@
-import { Component, Attribute } from '@angular/core';
+import { Component, Attribute, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'loading-bar',
   templateUrl: './loading-bar.component.html',
   styleUrls: ['./loading-bar.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LoadingBarComponent {
   constructor(@Attribute('size') public size: number) {

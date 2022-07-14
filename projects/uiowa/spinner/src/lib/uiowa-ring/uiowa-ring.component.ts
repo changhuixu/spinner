@@ -1,9 +1,10 @@
-import { Component, Attribute } from '@angular/core';
+import { Component, Attribute, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'uiowa-ring',
   templateUrl: './uiowa-ring.component.html',
   styleUrls: ['./uiowa-ring.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class UiowaRingComponent {
   constructor(@Attribute('size') public size: number) {

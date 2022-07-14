@@ -30,8 +30,13 @@ This library only contains three components and doesn't have third party depende
 
 - `uiowa-ring`
 
-  Rotating spinner with Golden and Black colors. Userd as loading indicator.
+  Rotating spinner with Golden and Black colors. Used as loading indicator.
   Allow to set spinner size. By default, size is 4rem.
+
+- `loading-placeholder`
+
+  Carousel style one stripe spinner in a white background with box shadow.
+  Allow to fit the parent container.
 
 ## Usage
 
@@ -65,6 +70,10 @@ This library only contains three components and doesn't have third party depende
 
 <uiowa-ring></uiowa-ring> // default size = 4rem
 <uiowa-ring size="2"></uiowa-ring>
+
+<div style="height: 100px">
+  <loading-placeholder></loading-placeholder>
+</div>
 ```
 
 ```typescript
