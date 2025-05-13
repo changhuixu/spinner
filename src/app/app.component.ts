@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { SpinnerModule } from '../../projects/uiowa/spinner/src/public-api';
 
 @Component({
   selector: 'app-root',
+  imports: [SpinnerModule],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   s1 = `

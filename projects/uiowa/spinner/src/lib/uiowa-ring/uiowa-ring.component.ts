@@ -1,7 +1,8 @@
-import { Component, Attribute, ChangeDetectionStrategy } from '@angular/core';
+import { Attribute, ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'uiowa-ring',
+  standalone: false,
   templateUrl: './uiowa-ring.component.html',
   styleUrls: ['./uiowa-ring.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,

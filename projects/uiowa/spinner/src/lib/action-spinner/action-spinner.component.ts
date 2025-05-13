@@ -1,7 +1,8 @@
-import { Component, Attribute, ChangeDetectionStrategy } from '@angular/core';
+import { Attribute, ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'action-spinner',
+  standalone: false,
   templateUrl: './action-spinner.component.html',
   styleUrls: ['./action-spinner.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,

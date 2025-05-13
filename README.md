@@ -1,16 +1,17 @@
 # @uiowa/spinner
 
-[![Build Status](https://img.shields.io/travis/changhuixu/spinner/master.svg?label=Travis%20CI&style=flat-square)](https://app.travis-ci.com/changhuixu/spinner.svg?branch=main)
+[![Build Status](https://github.com/changhuixu/spinner/actions/workflows/main.yml/badge.svg)](https://github.com/changhuixu/spinner/actions)
 [![npm](https://img.shields.io/npm/v/@uiowa/spinner.svg?style=flat-square)](https://www.npmjs.com/package/@uiowa/spinner)
 
 CHANGELOG
 
+- **v19** Angular 19+
 - **v13** Angular 13+
 - **v12** Angular 12+
 - **v10** Angular 10+
 - **v6** Angular 6+
 
-## [DEMO](https://spinner-1f3e5.firebaseapp.com/)
+## [DEMO](https://changhuixu.github.io/spinner/)
 
 [StackBlitz](https://stackblitz.com/github/changhuixu/spinner)
 

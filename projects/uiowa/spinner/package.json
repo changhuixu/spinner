@@ -1,6 +1,6 @@
 {
   "name": "@uiowa/spinner",
-  "version": "13.1.0",
+  "version": "19.0.0",
   "author": "Changhui Xu <changhui-xu@uiowa.edu>",
   "description": "(action-spinner) rotating circle spinner, used for actions such as button clicks. (loading-bar) beeping blocks, used for loading promises. (uiowa-ring) rotating golden and black spinner, used as loading indicator.",
   "license": "MIT",
@@ -17,10 +17,11 @@
     "loading bar"
   ],
   "peerDependencies": {
-    "@angular/common": ">13.0.0",
-    "@angular/core": ">13.0.0"
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  }
+  },
+  "sideEffects": false
 }
