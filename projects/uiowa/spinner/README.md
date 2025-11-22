@@ -5,6 +5,7 @@
 
 CHANGELOG
 
+- **v21** Angular 19+; standalone components
 - **v19** Angular 19+
 - **v13** Angular 13+
 - **v12** Angular 12+
@@ -43,45 +44,45 @@ This library only contains three components and doesn't have third party depende
 
 ```html
 <div>
-  <action-spinner></action-spinner>
+  <action-spinner />
 </div>
 
 <div>
-  <action-spinner size="2"></action-spinner>
+  <action-spinner size="2" />
 </div>
 
 <div>
-  <action-spinner size="9"></action-spinner>
+  <action-spinner size="9" />
 </div>
 
-<loading-bar>Loading...</loading-bar>
+Loading... <loading-bar />
 
-<loading-bar size="1.5">Loading...</loading-bar>
+Loading... <loading-bar size="1.5" />
 
 <div style="color:red;">
-  <loading-bar size="2">
-    <span style="font-size:2rem;">Validating ...</span>
-  </loading-bar>
+  <span style="font-size:2rem;">Validating ...</span>
+  <loading-bar size="2" />
 </div>
 
-<h2>
-  Title
-  <action-spinner></action-spinner>
-</h2>
+<h2>Title2 <action-spinner size="1.25" /></h2>
 
-<uiowa-ring></uiowa-ring> // default size = 4rem
-<uiowa-ring size="2"></uiowa-ring>
+<uiowa-ring /> // default size = 4rem
+<uiowa-ring size="2" />
 
 <div style="height: 100px">
-  <loading-placeholder></loading-placeholder>
+  <loading-placeholder />
 </div>
 ```
 
 ```typescript
 @NgModule({
   declarations: [...],
-  imports: [..., SpinnerModule],  // import SpinnerModule
+  imports: [...,
+    ActionSpinner,
+    LoadingBar,
+    LoadingPlaceholder,
+    UiowaRing], // import as needed
   providers: []
 })
-export class AppModule {}
+export class App {}
 ```
