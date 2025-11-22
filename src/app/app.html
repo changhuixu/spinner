@@ -1,0 +1,72 @@
+<div class="flex-container">
+  <section>
+    <pre>{{ s1 }}</pre>
+    <div>
+      <action-spinner />
+    </div>
+    <div>
+      <action-spinner size="2" />
+    </div>
+  </section>
+  <section>
+    <pre>{{ s2 }}</pre>
+    <div style="background-color: purple; color: white">
+      <action-spinner size="9" />
+    </div>
+  </section>
+
+  <section>
+    <pre>{{ s3 }}</pre>
+    <div style="background-color: black; color: gold">Loading... <loading-bar /></div>
+    <div>Loading... <loading-bar size="1.5" /></div>
+  </section>
+
+  <section>
+    <pre>{{ s4 }}</pre>
+    <div style="color: red; display: flex">
+      <span style="font-size: 2rem">Validating... </span>
+      <loading-bar size="2" />
+    </div>
+  </section>
+
+  <section>
+    <pre>{{ s5 }}</pre>
+    <h1>Title1 <action-spinner size="1.5" /></h1>
+    <h2>Title2 <action-spinner size="1.25" /></h2>
+    <h3>Title3 <action-spinner /></h3>
+  </section>
+
+  <section>
+    <pre>{{ s6 }}</pre>
+    <button type="button" class="btn btn-primary">Submit <action-spinner /></button>
+    <button type="button" class="btn">Uploading... <loading-bar /></button>
+    <button type="button" class="btn btn-primary">Uploading... <loading-bar /></button>
+  </section>
+
+  <section>
+    <pre>{{ s7 }}</pre>
+    <uiowa-ring />
+    <uiowa-ring size="2" />
+  </section>
+
+  <section>
+    <pre>{{ s7 }}</pre>
+    <div style="background-color: #01abff; color: white">
+      <uiowa-ring />
+      <uiowa-ring size="2" />
+    </div>
+  </section>
+
+  <section>
+    <pre>{{ s8 }}</pre>
+    <div style="height: 100px">
+      <loading-placeholder />
+    </div>
+  </section>
+
+  <section>
+    <div class="git">
+      <a href="https://github.com/changhuixu/spinner" title="git repo"> GitHub Repository </a>
+    </div>
+  </section>
+</div>

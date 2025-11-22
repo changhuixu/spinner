@@ -1,10 +1,10 @@
-.placeholder-item {
+.placeholder {
   box-shadow: 0 4px 10px 0 rgba(33, 33, 33, 0.15);
   position: relative;
   overflow: hidden;
   height: 100%;
 }
-.placeholder-item::before {
+.placeholder::before {
   content: '';
   display: block;
   position: absolute;
@@ -12,12 +12,7 @@
   top: 0;
   height: 100%;
   width: 200px;
-  background: linear-gradient(
-    to right,
-    transparent 0%,
-    #e8e8e8 50%,
-    transparent 100%
-  );
+  background: linear-gradient(to right, transparent 0%, #e8e8e8 50%, transparent 100%);
   animation: load 1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 @keyframes load {
