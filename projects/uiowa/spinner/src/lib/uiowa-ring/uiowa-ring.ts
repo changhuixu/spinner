@@ -5,7 +5,7 @@ import { Attribute, ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [],
   template: `
     <div
-      class="ring"
+      class="uiowa-ring"
       [style.height.rem]="size"
       [style.width.rem]="size"
       [style.border-width.rem]="size / 4"

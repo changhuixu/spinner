@@ -37,7 +37,7 @@
   -webkit-transform: scale(0.7);
   -moz-transform: scale(0.7);
 }
-.block-1 {
+.loading-bars-block.block-1 {
   display: inline-block;
   animation-delay: 0.45s;
   -o-animation-delay: 0.45s;
@@ -45,7 +45,7 @@
   -webkit-animation-delay: 0.45s;
   -moz-animation-delay: 0.45s;
 }
-.block-2 {
+.loading-bars-block.block-2 {
   display: inline-block;
   animation-delay: 0.6s;
   -o-animation-delay: 0.6s;
@@ -53,7 +53,7 @@
   -webkit-animation-delay: 0.6s;
   -moz-animation-delay: 0.6s;
 }
-.block-3 {
+.loading-bars-block.block-3 {
   display: inline-block;
   animation-delay: 0.75s;
   -o-animation-delay: 0.75s;
